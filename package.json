@@ -1,0 +1,31 @@
+{
+  "name": "serverless-vercel-api",
+  "version": "1.0.0",
+  "description": "Serverless API Template, for Vercel hosting.",
+  "main": "api/index.ts",
+  "repository": "git@github.com:robiiinos/serverless-vercel-api.git",
+  "author": "robiiinos",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write 'api/**/*.{js,ts}'",
+    "lint": "eslint 'api/**/*.{js,ts}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.0",
+    "@typescript-eslint/parser": "^4.9.0",
+    "@vercel/node": "^1.8.5",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.1.2"
+  }
+}
