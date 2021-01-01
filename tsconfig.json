@@ -68,6 +68,6 @@
     "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file. */
     "resolveJsonModule": true                 /* Allows importing modules with a ‘.json’ extension. */
   },
-  "include": ["src"],
+  "include": ["api"],
   "exclude": ["node_modules"]
 }
