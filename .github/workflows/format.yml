@@ -1,4 +1,4 @@
-name: Lint
+name: Format
 
 on:
   workflow_dispatch:
@@ -9,8 +9,8 @@ on:
       - master
 
 jobs:
-  lint:
-    name: ESLint
+  format:
+    name: Prettier
     runs-on: ubuntu-latest
     timeout-minutes: 3
 
