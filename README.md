@@ -5,7 +5,7 @@ Serverless API Template, hosted with [Vercel](https://vercel.com/).
 ## Dependencies
 
 - [Vercel CLI](https://vercel.com/download)
-    - Required to emulate local environment (serverless functions).
+  - Required to emulate local environment (serverless functions).
 
 # Development
 
