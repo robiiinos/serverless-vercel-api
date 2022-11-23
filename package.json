@@ -17,15 +17,15 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.9.0",
-    "@typescript-eslint/parser": "^4.9.0",
-    "@vercel/node": "^1.8.5",
-    "eslint": "^7.2.0",
-    "eslint-config-prettier": "^6.15.0",
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "@vercel/node": "^2.6.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
     "husky": "^4.3.0",
-    "prettier": "^2.1.2",
-    "typescript": "^4.1.2"
+    "prettier": "^2.7.0",
+    "typescript": "^4.7.0"
   }
 }

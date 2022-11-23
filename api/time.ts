@@ -1,6 +1,6 @@
-import { NowRequest, NowResponse } from "@vercel/node";
+import type { VercelRequest, VercelResponse } from "@vercel/node";
 
-export default (req: NowRequest, res: NowResponse): void => {
+export default (req: VercelRequest, res: VercelResponse): void => {
   const time = new Date().getTime();
 
   res.json({ time });
