@@ -40,5 +40,6 @@ Deployments to production should be triggered by a webhook when a commit, or a p
 If you need to force a deployment, use the following command:
 
 ```shell
+# Push and deploy to production
 vercel --prod
 ```
