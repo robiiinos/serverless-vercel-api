@@ -12,7 +12,10 @@ Serverless API Template, hosted with [Vercel](https://vercel.com/).
 ## Build
 
 ```shell
+# Install dependencies
 yarn
+
+# Start the server
 vercel dev
 ```
 
