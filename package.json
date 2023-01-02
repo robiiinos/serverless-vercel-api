@@ -10,7 +10,8 @@
     "format:check": "prettier --check '**/*.{js,ts,json,yaml,yml,md}'",
     "format:write": "prettier --write '**/*.{js,ts,json,yaml,yml,md}'",
     "lint": "eslint 'api/**/*.{js,ts}'",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "yarn prepare"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
