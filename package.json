@@ -14,15 +14,15 @@
     "postinstall": "yarn prepare"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.3.0",
-    "@commitlint/config-conventional": "^17.3.0",
-    "@typescript-eslint/eslint-plugin": "^5.44.0",
-    "@typescript-eslint/parser": "^5.44.0",
-    "@vercel/node": "^2.6.0",
-    "eslint": "^8.28.0",
-    "eslint-config-prettier": "^8.5.0",
+    "@commitlint/cli": "^17.4.0",
+    "@commitlint/config-conventional": "^17.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
+    "@vercel/node": "^2.8.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
     "husky": "^8.0.0",
-    "prettier": "^2.7.0",
+    "prettier": "^2.8.0",
     "typescript": "^4.7.0"
   },
   "engines": {
