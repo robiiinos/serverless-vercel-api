@@ -5,11 +5,13 @@ const handler = (req: VercelRequest, res: VercelResponse): VercelResponse => {
     return res.status(204).end();
   }
 
+  const time = Math.floor(Date.now() / 1000);
+
   return res.status(200).json({
     success: true,
     error: null,
     data: {
-      time: new Date().getTime(),
+      time,
     },
   });
 };

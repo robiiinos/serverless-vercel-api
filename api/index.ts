@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { name, description, version } from "../package.json";
+import { description, name, version } from "../package.json";
 
 const handler = (req: VercelRequest, res: VercelResponse): VercelResponse => {
   if (req.method?.toUpperCase() === "OPTIONS") {
